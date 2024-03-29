@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-api
     spec:
       containers:
-        - image: quay.io/openshift-pipeline/vote-api:latest
+        - image: quay-gwz7n.apps.cluster-gwz7n.sandbox2622.opentlc.com/quayadmin/pipelines-vote-api:v4
           imagePullPolicy: Always
           name: pipelines-vote-api
           ports:
